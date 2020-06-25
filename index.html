@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="resources/js/new-tab-script.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/css/new-tab-style.css">
+	<style>	
+	.dark-mode{
+		background-color: var(--light-colour);
+		color:var(--dark-colour);
+	}
+	</style>
+
+</head>
+
+<body onload="startTime()" class="fade-in">
+	<div class="container">
+		<div id="time"></div>
+		<div id="under-time">
+			<p><br>
+				<span id="day"></span>
+				<span id="greeting"></span>
+				<div id="DMY">
+					<span id="date"></span> - 
+					<span id="month"></span> - 
+					<span id="year"></span>
+				</div>
+			</p>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>
+			minimal newtab - 
+			<a href="http://tomdevl.in">
+				tomdevlin
+			</a>
+		</p>
+	</div>
+</body>
+</html>

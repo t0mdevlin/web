@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+	:root{
+		--dark-colour: #1c1c1c;
+		--light-colour: #FFF;
+		--medium-colour-light: #e6e6e6;
+		--medium-colour-dark: #242424;
+	}
+
+
+	body{
+		background-color: var(--dark-colour);
+		color:var(--medium-colour-light);
+		font-family: Inconsolata;
+		
+	}
+	.container{
+		width:75%;
+	}
+	#time{
+		padding-top: 12%;
+		text-align: center;
+		margin: auto auto;
+		font-size: 18vw;
+		width: 100%;
+	}
+	#under-time{
+		text-align: center;
+	}
+	#day{
+		font-size: 1vw;
+		float: left;
+	}
+	#greeting{
+		font-size: 1vw;
+		text-align: center;
+	}
+	#DMY{
+		font-size: 1vw;
+		float: right;
+	}
+	#footer{
+		left: 0;
+		bottom: 0;
+		position: fixed; 
+		width: 100%;
+		text-align: center;
+		color: var(--medium-colour-dark);
+		font-size: 1vw;
+	}
+
+	a {
+		color: var(--medium-colour-dark);
+	}
+
+	a:active{
+		color: var(--medium-colour-dark);
+	}
+
+	a:hover{
+		color: var(--medium-colour-dark);
+	}
+
+	/* FADE IN */
+	.fade-in {
+	  animation: fadeIn ease 3s;
+	  -webkit-animation: fadeIn ease 3s;
+	  -moz-animation: fadeIn ease 3s;
+	  -o-animation: fadeIn ease 3s;
+	  -ms-animation: fadeIn ease 3s;
+	}
+	@keyframes fadeIn {
+	  0% {
+	    opacity:0;
+	  }
+	  100% {
+	    opacity:1;
+	  }
+	}
+
+	@-moz-keyframes fadeIn {
+	  0% {
+	    opacity:0;
+	  }
+	  100% {
+	    opacity:1;
+	  }
+	}
+
+	@-webkit-keyframes fadeIn {
+	  0% {
+	    opacity:0;
+	  }
+	  100% {
+	    opacity:1;
+	  }
+	}
+
+	@-o-keyframes fadeIn {
+	  0% {
+	    opacity:0;
+	  }
+	  100% {
+	    opacity:1;
+	  }
+	}
+
+	@-ms-keyframes fadeIn {
+	  0% {
+	    opacity:0;
+	  }
+	  100% {
+	    opacity:1;
+	}
+
+	/*TOGGLE BUTTON */
