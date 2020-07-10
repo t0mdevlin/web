@@ -96,13 +96,33 @@ function getDate(){
 	document.getElementById("year").innerHTML = year;
 }
 
-function loadQuote(){
-	// var quoteArray = [];
-	// $.getJSON("./resources/js/quotes.json"), function(data){
-	// 	quoteArray = JSON.parse(data.quotes);
-	// 	console.log(quoteArray);
-	// };
+function addGreeting(){
+	var now = new Date();
+  	var hour = now.getHours();
+  	var greeting;
+  	if(hour > 1 && hour < 12){
+  		greeting = 'Good Morning';
+  	}
+  	else if(hour > 12 && hour < 17){
+  		greeting = 'Good Afternoon';
+  	}
+  	else if(hour > 17 && hour < 21){
+  		greeting = 'Good Evening';
+  	}
+  	else if(hour > 21 && hour < 24){
+  		greeting = 'Good Night';
+  	}
+
+  	console.log(greeting);
+  	document.getElementById("greeting").innerHTML = greeting;
 }
+// function loadQuote(){
+// 	var quoteArray = [];
+// 	$.getJSON("./resources/js/quotes.json"), function(data){
+// 		quoteArray = JSON.parse(data.quotes);
+// 		console.log(quoteArray);
+// 	};
+// }
 
 // function getLocation(){
 // 	if(navigator.geolocation){
@@ -144,6 +164,5 @@ $(document).ready(function(){
 	startTime();
 	getDay();
 	getDate();
-	loadQuote();
-
+	addGreeting();
 });

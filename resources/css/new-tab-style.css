@@ -35,7 +35,7 @@
 	}
 	#greeting{
 		font-size: 1vw;
-		text-align: center;
+		float: left;
 	}
 	#DMY{
 		font-size: 1vw;
