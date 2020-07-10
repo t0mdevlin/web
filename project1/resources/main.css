@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+	background-color: #FFF
+}
+.container{
+	margin: 0 auto;
+	width: 75%;
+}
+
+nav{
+	font-family: 'Krona One'
+}
+
+main{
+	background-color: #1e1e1e;
+	height: 80vh;
+	width: 100%;
+}

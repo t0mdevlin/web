@@ -1,4 +1,5 @@
 [  
+   "quotes": [
    {  
       "text":"The only people who never fail are those who never try.",
       "from":"Ilka Chase"
@@ -1298,5 +1299,5 @@
    {  
       "text":"“You may be disappointed if you fail, but you are doomed if you don’t try.",
       "from":"Beverly Sills, operatic soprano"
-   }
+   }]
 ]

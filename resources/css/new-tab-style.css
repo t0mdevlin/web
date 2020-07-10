@@ -10,7 +10,7 @@
 	body{
 		background-color: var(--dark-colour);
 		color:var(--medium-colour-light);
-		font-family: Inconsolata;
+		font-family: Arial;
 		
 	}
 	.container{
@@ -24,6 +24,9 @@
 		width: 100%;
 	}
 	#under-time{
+		text-align: center;
+	}
+	#over-time{
 		text-align: center;
 	}
 	#day{
