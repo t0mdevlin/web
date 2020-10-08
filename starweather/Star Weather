@@ -1,0 +1,10 @@
+Star Weather
+
+get weather at current location 
+
+javascript functions 
+	-clock
+	-display temperature
+	-compare to starwars planets
+	-display background picture based on temp
+	-star wars quotes? -> (http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote)
