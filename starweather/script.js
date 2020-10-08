@@ -1,4 +1,4 @@
-var quoteURL = "https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote";
+var quoteURL = "http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote";
 
 function startTime() {
 	var today = new Date();
